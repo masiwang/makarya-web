@@ -193,5 +193,288 @@
                 </div>
             </div>
         </div>
+        <div style="height:50px;background-color:white"></div>
+        <div id="section-5" style="background-color:white">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h6 class="ma_section-subtitle">MITRA USAHA KAMI</h6>
+                    <div style="height:20px;background-color:white"></div>
+                    <h1 class="ma_section-title">
+                        <span class="text-dark">Bidang Usaha </span>
+                        <span class="text-success">Mitra Makarya</span>
+                    </h1>
+                </div>
+            </div>
+            <div style="height:30px;background-color:white"></div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="ma_image-slide">
+                        <img src="{{asset('image/vegetables-unsplash-wallpaper-330x330.jpg')}}" alt="Avatar" class="image">
+                        <div class="overlay"></div>
+                        <div class="overlay2"></div>
+                        <div class="text text-center">
+                            <h4>Pertanian</h4>
+                            <div style="height:25px"></div>
+                            <div>
+                                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8.354 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L9.793 7.5H5a.5.5 0 0 0 0 1h4.793l-2.147 2.146z"/>
+                                </svg>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ma_image-slide">
+                        <img src="{{asset('image/makarya-sheep-330x330.jpg')}}" alt="Avatar" class="image">
+                        <div class="overlay"></div>
+                        <div class="overlay2"></div>
+                        <div class="text text-center">
+                            <h4>Peternakan</h4>
+                            <div style="height:25px"></div>
+                            <div>
+                                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8.354 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L9.793 7.5H5a.5.5 0 0 0 0 1h4.793l-2.147 2.146z"/>
+                                </svg>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ma_image-slide">
+                        <img src="{{asset('image/makarya-fishery-330x330.jpg')}}" alt="Avatar" class="image">
+                        <div class="overlay"></div>
+                        <div class="overlay2"></div>
+                        <div class="text text-center">
+                            <h4>Perikanan</h4>
+                            <div style="height:25px"></div>
+                            <div>
+                                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8.354 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L9.793 7.5H5a.5.5 0 0 0 0 1h4.793l-2.147 2.146z"/>
+                                </svg>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div style="height:75px;background-color:white"></div>
+        <div id="section-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h6 class="ma_section-subtitle">HASIL USAHA MITRA</h6>
+                    <div style="height:20px;background-color:white"></div>
+                    <h1 class="ma_section-title">
+                        <span class="text-dark">Beli Hasil Usaha </span>
+                        <span class="text-success">Mitra Makarya</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="ma_product">
+                        <div class="ma_image-product">
+                            <img src="{{asset('image/chicken-egg-b-300x295.jpg')}}" alt="Avatar" class="image">
+                            <div class="row ma_product-action py-3 px-3">
+                                <div class="col-sm-10">
+                                    <p>Tambah ke keranjang</p>
+                                </div>
+                                <div class="col-sm-2">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 15px"></div>
+                        <div class="text-center">
+                            <p class="mb-1">Telur ayam coklat</p>
+                            <p class="text-primary">Rp. 15.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="ma_product">
+                        <div class="ma_image-product">
+                            <img src="{{asset('image/jamur-merang-300x300.jpg')}}" alt="Avatar" class="image">
+                            <div class="row ma_product-action py-3 px-3">
+                                <div class="col-sm-10">
+                                    <p>Tambah ke keranjang</p>
+                                </div>
+                                <div class="col-sm-2">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 15px"></div>
+                        <div class="text-center">
+                            <p class="mb-1">Jamur Merang</p>
+                            <p class="text-primary">Rp. 15.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="ma_product">
+                        <div class="ma_image-product">
+                            <img src="{{asset('image/kacang-panjang-300x300.jpg')}}" alt="Avatar" class="image">
+                            <div class="row ma_product-action py-3 px-3">
+                                <div class="col-sm-10">
+                                    <p>Tambah ke keranjang</p>
+                                </div>
+                                <div class="col-sm-2">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 15px"></div>
+                        <div class="text-center">
+                            <p class="mb-1">Kacang Panjang</p>
+                            <p class="text-primary">Rp. 5.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="ma_product">
+                        <div class="ma_image-product">
+                            <img src="{{asset('image/daun-rosemary-300x300.jpg')}}" alt="Avatar" class="image">
+                            <div class="row ma_product-action py-3 px-3">
+                                <div class="col-sm-10">
+                                    <p>Tambah ke keranjang</p>
+                                </div>
+                                <div class="col-sm-2">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: 15px"></div>
+                        <div class="text-center">
+                            <p class="mb-1">Daun Rosemary</p>
+                            <p class="text-primary">Rp. 25.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-12 text-center">
+                    <button class="btn btn-success">
+                        Lihat selengkapnya
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div style="height:75px;background-color:white"></div>
+        <div id="section-7" style="background-image:url('{{asset('image/home-appointment-contact-bg-image.png')}}')">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div style="height:20px;background-color:white"></div>
+                    <h1 class="ma_section-title">
+                        <span class="text-dark">Butuh Bantuan </span>
+                        <span class="text-success">Makarya</span>
+                        <span class="text-dark">?</span>
+                    </h1>
+                    <h6>Tinggalkan pesan untuk kami dan kami akan membalas pesan Anda secepatnya!</h6>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama *">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email *">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subjek">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Tinggalkan pesan Anda disini."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn btn-success">
+                                Dapatkan konsultasi gratis
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-5">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h6>ATAU HUBUNGI KAMI VIA</h6>
+                            <h1 class="footer-phone">(+62) 821 3000 4204</h1>
+                            <p>Mulai berkonsultasi dengan kami mengenai apa yang Anda butuhkan untuk membangun pertanian Indonesia bersama kami.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height:75px;background-color:white"></div>
+        <div id="section-footer">
+            <div class="row p-4">
+                <div class="col-md-5 px-4">
+                    <img src="{{asset('image/makarya-light-250x75.png')}}" alt="">
+                    <div style="height:20px"></div>
+                    <p>Jl. Shinta No. 20, Purwo Asri, RT 40B, RW 016, Kroyo, Karang Malang
+                        Sragen, Indonesia</p>
+                    <a href="#" class="text-decoration-none text-success">support@makarya.in</a><br/>
+                    <div style="height:10px"></div>
+                    <a href="#" class="text-decoration-none text-success">(+62) 821 3000 4204</a>
+                </div>
+                <div class="col-md-7 px-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="my-4">Navigasi</h4>
+                            <ul>
+                                <li><a href="#" class="text-decoration-none">Home</a></li>
+                                <li><a href="#" class="text-decoration-none">Tentang Kami</a></li>
+                                <li><a href="#" class="text-decoration-none">Fitur</a></li>
+                                <li><a href="#" class="text-decoration-none">Cara Kerja</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="my-4">Link Terkait</h4>
+                            <ul>
+                                <li><a href="#" class="text-decoration-none">Blog</a></li>
+                                <li><a href="#" class="text-decoration-none">Hubungi Kami</a></li>
+                                <li><a href="#" class="text-decoration-none">Bantuan & FAQ</a></li>
+                                <li><a href="#" class="text-decoration-none">Syarat & Ketentuan</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="my-4">Download App</h4>
+                            <img class="mb-1"src="{{asset('image/mitech-button-google-play-light.jpg')}}" alt=""/>
+                            <img src="{{asset('image/mitech-button-app-store-light.jpg')}}" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height:20px"></div>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-between">
+                    <div class="px-4"><p class="pl-3">© 2020 Makarya. All Rights Reserved</p></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div style="height:300px;background-color:white"></div>
     </div>
 @endsection
