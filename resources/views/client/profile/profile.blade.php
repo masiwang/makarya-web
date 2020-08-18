@@ -1,5 +1,6 @@
 @extends('app')
 @section('content')
+    @include('client/profile/_fab-chat')
     @include('components/_navbar')
     <div class="container shadow" style="margin-top: 7em;">
         <div class="row ma-profile-container">
