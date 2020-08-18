@@ -1,4 +1,4 @@
-@extends('_master')
+@extends('app')
 @section('content')
     <div class="ma_fixed-background">
         <img src="{{asset('image/vegetables-unsplash-wallpaper.jpg')}}"/>
@@ -461,8 +461,8 @@
                         </div>
                         <div class="col-md-4">
                             <h4 class="my-4">Download App</h4>
-                            <img class="mb-1"src="{{asset('image/mitech-button-google-play-light.jpg')}}" alt=""/>
-                            <img src="{{asset('image/mitech-button-app-store-light.jpg')}}" alt=""/>
+                            <img class="mb-1" style="border-radius:.5em" src="{{asset('image/mitech-button-google-play-light.jpg')}}" alt=""/>
+                            <img  style="border-radius:.5em" src="{{asset('image/mitech-button-app-store-light.jpg')}}" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -470,11 +470,10 @@
             <div style="height:20px"></div>
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-between">
-                    <div class="px-4"><p class="pl-3">© 2020 Makarya. All Rights Reserved</p></div>
+                    <div class="px-4"><p class="pl-2">© 2020 Makarya. All Rights Reserved</p></div>
                     <div></div>
                 </div>
             </div>
         </div>
-        <div style="height:300px;background-color:white"></div>
     </div>
 @endsection

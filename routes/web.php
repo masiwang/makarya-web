@@ -14,9 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('client/landing');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
+Route::get('/auth', function () {
+    return view('client/auth/login');
+});
+
+Route::get('/market', function(){
+    return view('client/market');
+});
+
+Route::get('/profile', function () {
+    return view('client/profile/profile');
+});
+Route::get('/profile/document', function () {
+    return view('client/profile/document');
+});
+Route::get('/profile/address', function () {
+    return view('client/profile/address');
+});
+Route::get('/profile/security', function () {
+    return view('client/profile/security');
 });
