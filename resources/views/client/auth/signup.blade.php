@@ -69,4 +69,8 @@
 </div>
 </div>
 <div style="height:50px"></div>
+<<<<<<< Updated upstream
 @endsection
+=======
+@endsection 
+>>>>>>> Stashed changes

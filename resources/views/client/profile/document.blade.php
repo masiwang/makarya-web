@@ -26,9 +26,15 @@
                             </div>
                             <div class="mb-3 row">
                                 <div class="col-12 text-left">
+<<<<<<< Updated upstream
                                 <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">
                                     ubah dokumen
                                 </button>
+=======
+                                    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">
+                                        ubah dokumen
+                                    </button>
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                         </div>
@@ -38,6 +44,7 @@
         </div>
     </div>
     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<<<<<<< Updated upstream
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -64,5 +71,33 @@
     </div>
   </div>
 </div>
+=======
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Ubah Dokumen</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!--isi modal-->
+              <div class="row g-3">
+                  <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Nomor KTP" aria-label="Nomor KTP">
+                  </div>
+                  <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Nomor NPWP" aria-label="Nomor NPWP">
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button> -->
+              <button type="button" class="btn btn-success">Simpan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+>>>>>>> Stashed changes
     <div style="height:50px"></div>
 @endsection
