@@ -37,3 +37,6 @@ Route::get('/profile/address', function () {
 Route::get('/profile/security', function () {
     return view('client/profile/security');
 });
+Route::get('/signup', function(){
+    return view('client/auth/signup');
+});

@@ -5,7 +5,7 @@
             <div class="card-panel white">
                 <img src="{{asset('image/makarya-dark-160x48.png')}}" alt="" srcset="">
                 <div class="row" style="width: 80vw">
-                    <div class="col s7" style="text-align: center; border-right: #666 1px solid;">
+                    <div class="col s7 " style="text-align: center; border-right: #666 1px solid;">
                         <img src="{{asset('image/makarya-farmer.png')}}" style="height: 70vh;" alt="" srcset="">
                     </div>
                     <div class="col s5" style="padding-left: 20px;">
@@ -40,7 +40,7 @@
                                 <div class="row" style="margin-bottom:0">
                                     <div class="col s12">
                                         <div class="col s12">
-                                            <p style="margin-bottom:0">Belum punya akun? <a href="">Registrasi</a></p>
+                                            <p style="margin-bottom:0">Belum punya akun? <a href="/signup">Registrasi</a></p>
                                         </div>
                                     </div>
                                 </div>
