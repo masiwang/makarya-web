@@ -70,7 +70,7 @@
                                         </div>
                                     </div>
                                     <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">
-                                    ubah profile
+                                    Ubah Profile
                                     </button>
                                 </form>
                             </div>
