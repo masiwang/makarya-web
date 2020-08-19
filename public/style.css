@@ -1,14 +1,4 @@
-/* background */
-.ma_fixed-background img{
-    width:100%; 
-    z-index:-99; 
-    position: fixed
-}
-/* section 1 */
-#section-1{
-    background-color: #333333aa;
-    padding: 0 72.5px;
-}
+
 #section-1 .ma_big-title{
     font-size: 90px;
     font-weight: 700;
@@ -69,17 +59,7 @@
     font-weight:500;
     font-size:.8em
 }
-/* section-2 */
-#section-2{
-    background-color: white;
-    padding: 72.5px;
-}
 
-/* section-3 */
-#section-3{
-    background-color:white;
-    padding:0 72.5px;
-}
 
 .ma_card{
     background-color: #e8f2e8;
@@ -102,11 +82,6 @@
     right: 15px;
 }
 
-/* section-4 */
-#section-4{
-    background-color:white;
-    padding:0 72.5px;
-}
 
 .ma_side-title{
     position: relative;
@@ -235,15 +210,7 @@
     font-size: 2em;
     font-weight: 600;
 }
-#section-5{
-    background-color:white;
-    padding:0 72.5px;
-}
-  
-#section-6{
-    background-color:white;
-    padding:0 72.5px;
-}
+
 
 .ma_image-product{
     position: relative;

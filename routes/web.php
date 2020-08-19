@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('client/auth/login');
 });
+Route::get('/login-old', function () {
+    return view('client/auth/login-old');
+});
 Route::get('/signup', function(){
     return view('client/auth/signup');
 });
@@ -45,3 +48,6 @@ Route::get('/market', function(){
 Route::get('/pembiayaan', function(){
     return view('client/invest/pembiayaan');
 });
+// Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

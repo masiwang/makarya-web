@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
-    <div class="ma_fixed-background">
-        <img src="{{asset('image/vegetables-unsplash-wallpaper.jpg')}}"/>
+    <div>
+        <img class="landing-background" src="{{asset('image/vegetables-unsplash-wallpaper.jpg')}}"/>
     </div>
     <div>
         <div id="section-1">
@@ -42,8 +42,8 @@
                 <h2 class="text-light ma_big-subtitle">Membangun negeri mulai dari sini</h2>
                 <div style="height:30px"></div>
                 <div class="d-flex justify-content-center">
-                    <button class="btn btn-success ma_btn-green mr-2 py-3 px-4">Yuk berinvestasi!</button>
-                    <button class="btn btn-light ma_btn-white ml-2 py-3 px-4">Belanja produk mitra</button>
+                    <a class="btn btn-success ma_btn-green mr-2 py-3 px-4" href="{{url('/login')}}">Yuk berinvestasi!</a>
+                    <a class="btn btn-light ma_btn-white ml-2 py-3 px-4" href="{{url('/login')}}">Belanja produk mitra</a>
                 </div>
                 <div style="height:240px"></div>
             </div>
@@ -270,18 +270,19 @@
                 </div>
             </div>
             <div class="row">
+                @for ($i = 0; $i < 4; $i++)
                 <div class="col-sm-3">
-                    <div class="ma_product">
-                        <div class="ma_image-product">
-                            <img src="{{asset('image/chicken-egg-b-300x295.jpg')}}" alt="Avatar" class="image">
-                            <div class="row ma_product-action py-3 px-3">
-                                <div class="col-sm-10">
-                                    <p>Tambah ke keranjang</p>
-                                </div>
+                    <div class="ma-product-3">
+                        <div class="ma-product-3-image">
+                            <img class="ma-product-3-image-avatar" src="{{asset('image/chicken-egg-b-300x295.jpg')}}" alt="Avatar">
+                            <div class="row ma-product-3-action py-3 px-3">
                                 <div class="col-sm-2">
                                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
                                     </svg>
+                                </div>
+                                <div class="col-sm-10">
+                                    <p>Tambah ke keranjang</p>
                                 </div>
                             </div>
                         </div>
@@ -292,78 +293,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="ma_product">
-                        <div class="ma_image-product">
-                            <img src="{{asset('image/jamur-merang-300x300.jpg')}}" alt="Avatar" class="image">
-                            <div class="row ma_product-action py-3 px-3">
-                                <div class="col-sm-10">
-                                    <p>Tambah ke keranjang</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="height: 15px"></div>
-                        <div class="text-center">
-                            <p class="mb-1">Jamur Merang</p>
-                            <p class="text-primary">Rp. 15.000</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="ma_product">
-                        <div class="ma_image-product">
-                            <img src="{{asset('image/kacang-panjang-300x300.jpg')}}" alt="Avatar" class="image">
-                            <div class="row ma_product-action py-3 px-3">
-                                <div class="col-sm-10">
-                                    <p>Tambah ke keranjang</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="height: 15px"></div>
-                        <div class="text-center">
-                            <p class="mb-1">Kacang Panjang</p>
-                            <p class="text-primary">Rp. 5.000</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="ma_product">
-                        <div class="ma_image-product">
-                            <img src="{{asset('image/daun-rosemary-300x300.jpg')}}" alt="Avatar" class="image">
-                            <div class="row ma_product-action py-3 px-3">
-                                <div class="col-sm-10">
-                                    <p>Tambah ke keranjang</p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="height: 15px"></div>
-                        <div class="text-center">
-                            <p class="mb-1">Daun Rosemary</p>
-                            <p class="text-primary">Rp. 25.000</p>
-                        </div>
-                    </div>
-                </div>
+                @endfor
             </div>
             <div class="row mt-4">
                 <div class="col-sm-12 text-center">
-                    <button class="btn btn-success">
+                    <a class="btn btn-success" href="{{url('/market')}}">
                         Lihat selengkapnya
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

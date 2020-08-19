@@ -1,0 +1,51 @@
+.landing-background{
+    width:100%; 
+    z-index:-99; 
+    position: fixed
+}
+#section-1{
+    background-color: #252525aa;
+    padding: 0 72.5px;
+}
+#section-2, #section-3, #section-4, #section-5, #section-6, #section-7{
+    background-color: white;
+    padding: 32.5px 72.5px;
+}
+#section-7{
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+#section-footer{
+    background-color:#252525;
+    color:#666;
+    padding:0 72.5px;
+}
+/* untuk list produk > 4 produk per row */
+.ma-product-3-image{
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.ma-product-3-image-avatar{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    z-index: 1;
+    transition: all .5s;
+}
+.ma-product-3-action{
+    transition: all .5s;
+    background: #3CA34A;
+    color: white;
+}
+.ma-product-3:hover .ma-product-3-action{
+    transform: translateY(-6rem);
+    transition: all .5s;
+}
+.ma-product-3:hover .image{
+    transform: scale(1.1);
+    transition: all .5s;
+}
