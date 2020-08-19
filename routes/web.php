@@ -39,8 +39,10 @@ Route::get('/profile/security', function () {
 });
 Route::get('/signup', function(){
     return view('client/auth/signup');
-<<<<<<< Updated upstream
 });
+<<<<<<< Updated upstream
 =======
-}); 
+Route::get('/pembiayaan', function(){
+    return view('client/pembiayaan');
+});
 >>>>>>> Stashed changes

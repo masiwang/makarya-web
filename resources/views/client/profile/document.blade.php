@@ -13,6 +13,12 @@
                         @include('client/profile/_topbar')
                         <div class="row p-3">
                             <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Foto KTP</label>
+                                <div class="col-sm-10">
+                                    <p id="addBirthday" class="col-form-label">331419**********</p>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
                                 <label for="staticEmail" class="col-sm-2 col-form-label">Nomor KTP</label>
                                 <div class="col-sm-10">
                                     <p id="addBirthday" class="col-form-label">331419**********</p>

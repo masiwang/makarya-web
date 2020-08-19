@@ -40,11 +40,7 @@
                                 <div class="row" style="margin-bottom:0">
                                     <div class="col s12">
                                         <div class="col s12">
-<<<<<<< Updated upstream
                                             <p style="margin-bottom:0">Belum punya akun? <a href="/signup">Registrasi</a></p>
-=======
-                                            <p style="margin-bottom:0">Belum punya akun? <a href="{{url('signup')}}">Registrasi</a></p>
->>>>>>> Stashed changes
                                         </div>
                                     </div>
                                 </div>
