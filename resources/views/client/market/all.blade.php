@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-    @include('components/_navbar')
+    @include('client/components/_navbar')
     <div class="container">
         <div class="row" style="margin-top:7rem">
             <div class="col-sm-12">

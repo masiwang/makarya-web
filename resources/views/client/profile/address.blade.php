@@ -1,7 +1,7 @@
 
 @extends('app')
 @section('content')
-    @include('components/_navbar')
+    @include('client/components/_navbar')
     <div class="container shadow" style="margin-top: 7em">
         <div class="row ma-profile-container">
             <div class="col-md-2 p-3 sidebar">
