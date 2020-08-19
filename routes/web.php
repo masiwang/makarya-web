@@ -12,19 +12,19 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// LANDING
 Route::get('/', function () {
     return view('client/landing');
 });
-
-Route::get('/auth', function () {
+// AUTH
+Route::get('/login', function () {
     return view('client/auth/login');
 });
-
-Route::get('/market', function(){
-    return view('client/market');
+Route::get('/signup', function(){
+    return view('client/auth/signup');
 });
 
+// PROFILE
 Route::get('/profile', function () {
     return view('client/profile/profile');
 });
@@ -37,9 +37,11 @@ Route::get('/profile/address', function () {
 Route::get('/profile/security', function () {
     return view('client/profile/security');
 });
-Route::get('/signup', function(){
-    return view('client/auth/signup');
+// MARKET
+Route::get('/market', function(){
+    return view('client/market/all');
 });
+// INVEST
 Route::get('/pembiayaan', function(){
-    return view('client/pembiayaan');
+    return view('client/invest/pembiayaan');
 });
