@@ -122,7 +122,8 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Budidaya Ayam Petelur</h5>
+        <img src="{{asset('image/chicken-egg-b-300x295.jpg')}}" class="img-fluid" alt="Avatar">
+          <h5 class="modal-title" id="staticBackdropLabel">Ayam Petelur</h5>    
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -135,6 +136,7 @@
                 </div>
               </nav>
               <div class="tab-content justify-content-center" id="nav-tabContent">
+                <div style="height:30px"></div>  
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     Jagung merupakan komoditas pangan strategis bagi masyarakat Indonesia, selain banyak digunakan sebagai bahan baku lanjutan juga banyak dimanfaatkan untuk bahan baku pakan ternak. Hingga saat ini pemerintah melalui Kementerian Pertanian dan Peternakan terus mendorong agar produksi jagung di tanah air mengalami kenaikan sehingga bisa memenuhi kebutuhan dalam negeri sekaligus melakukan ekspor. Bahkan Presiden Joko Widodo telah mengintruksikan kepada BULOG untuk menyerap seluruh hasil panen dari petani dengan harga minimal Rp. 3.150 per kg. (liputan6.com).
                 </div>
@@ -143,38 +145,49 @@
                     <table class="table">
                         <thead>
                           <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Bulan ke</th>
+                            <th scope="col">Bagi Hasil Bersih</th>
+                            <th scope="col">Bagi Hasil (%)</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                            <th scope="row">6</th>
+                            <td>Rp. 200.000</td>
+                            <td>10%</td>
                           </tr>
                           <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <th scope="row">12</th>
+                            <td>Rp. 200.000</td>
+                            <td>10%</td>
                           </tr>
                           <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
+                            <th scope="row">Pengembalian Modal</th>
+                            <td colspan="1">Rp. 2.500.000</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Total</th>
+                            <td colspan="1">Rp. 3.250.000</td>
+                            <td>-</td>
                           </tr>
                         </tbody>
                       </table>
                 </div>
               </div>
         </div>
+        
         <div class="modal-footer">
-          <button type="button" class="btn btn-success">Biayai Sekarang</button>
-        </div>
+            <div class="row mb-6 text-center">
+                <div class="col-6">
+                    <div class="input-group">
+                        {{-- <span class="input-group-text" id="basic-addon1">Qty</span> --}}
+                        <input type="number" class="form-control" placeholder="Jumlah Unit" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>                  
+                        <button type="button" class="btn btn-success col-6">Biayai Sekarang</button>            
+            </div>
+        </div>    
       </div>
     </div>
   </div>
