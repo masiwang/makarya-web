@@ -61,7 +61,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-body text-center">
-                                                <button type="button" class="btn btn-success">Lihat selengkapnya</button>
+                                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">Lihat selengkapnya</button>
                                             </div>
                                         </div>
                                     </div>
@@ -84,7 +84,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-body text-center">
-                                                <button type="button" class="btn btn-success">Lihat selengkapnya</button>
+                                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">Lihat selengkapnya</button>
                                             </div>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-body text-center">
-                                                <button type="button" class="btn btn-success">Lihat selengkapnya</button>
+                                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">Lihat selengkapnya</button>
                                             </div>
                                         </div>
                                     </div>
@@ -117,4 +117,65 @@
                     </div>
                 </div>   
         <div style="height: 50px"></div>
+         <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Budidaya Ayam Petelur</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <nav>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                  <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Deskripsi</a>
+                  <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Simulasi Hasil</a>
+                </div>
+              </nav>
+              <div class="tab-content justify-content-center" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    Jagung merupakan komoditas pangan strategis bagi masyarakat Indonesia, selain banyak digunakan sebagai bahan baku lanjutan juga banyak dimanfaatkan untuk bahan baku pakan ternak. Hingga saat ini pemerintah melalui Kementerian Pertanian dan Peternakan terus mendorong agar produksi jagung di tanah air mengalami kenaikan sehingga bisa memenuhi kebutuhan dalam negeri sekaligus melakukan ekspor. Bahkan Presiden Joko Widodo telah mengintruksikan kepada BULOG untuk menyerap seluruh hasil panen dari petani dengan harga minimal Rp. 3.150 per kg. (liputan6.com).
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div style="height:30px"></div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success">Biayai Sekarang</button>
+        </div>
+      </div>
+    </div>
+  </div>
 @endsection
