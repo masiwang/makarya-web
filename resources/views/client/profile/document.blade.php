@@ -12,19 +12,20 @@
                     <div class="col-md-12 card-body">
                         @include('client/profile/_topbar')
                         <div class="row p-3">
-                            <div class="col-sm-4 row">
-                                <label for="staticEmail" class="col-sm-2 col-form-label">Foto KTP</label>
+                            <div class="col-sm-2 row">
+                                <label for="staticEmail" class="col-form-label">Foto KTP</label>
                             </div>
                                   <div class="col-md-4 row">
                                       <img src="{{asset('image/default_toped-21.jpg')}}" class="img-thumbnail" alt="" srcset="">
                                   </div>
-                            <div class="col-sm-4 row">
-                                <label for="staticEmail" class="col-sm-2 col-form-label">Foto NPWP</label>
+                            <div class="col-sm-2 row">
+                                <label for="staticEmail" class="col-form-label">Foto NPWP</label>
                             </div>
                                   <div class="col-md-4 row">
                                       <img src="{{asset('image/default_toped-21.jpg')}}" class="img-thumbnail" alt="" srcset="">
                                   </div>
-                            <div class="mb-3 row">
+                        </div>
+                            <div class="col-mb-4 row">
                                 <div class="col-md-12 text-right">
                                 <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">
                                     upload dokumen
@@ -49,7 +50,7 @@
       <div class="modal-body">
         <!--isi modal-->
         <div class="row g-3">
-          <label for="staticEmail" class="col-sm-2 col-form-label">Foto KTP</label>
+          <label for="staticEmail" class="col-form-label">Foto KTP</label>
           <div class="form-file">
             <input type="file" class="form-file-input" id="customFile">
             <label class="form-file-label" for="customFile">
@@ -57,7 +58,7 @@
               <span class="form-file-button">Browse</span>
             </label>
           </div>
-          <label for="staticEmail" class="col-sm-2 col-form-label">Foto NPWP</label>
+          <label for="staticEmail" class="col-form-label">Foto NPWP</label>
             <div class="form-file">
               <input type="file" class="form-file-input" id="customFile">
               <label class="form-file-label" for="customFile">

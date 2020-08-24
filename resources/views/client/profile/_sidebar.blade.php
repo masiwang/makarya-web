@@ -20,7 +20,7 @@
         <div class="collapse show" id="collapseExample">
             <ul>
                 <li><a href="" class="ma-sidemenu-link active">Pembelian</a></li>
-                <li><a href="" class="ma-sidemenu-link">Investasi</a></li>
+                <li><a href="/myinvestment" class="ma-sidemenu-link active">Investasi</a></li>
                 <li><a href="" class="ma-sidemenu-link">Bantuan</a></li>
                 <li><a href="" class="ma-sidemenu-link">Sistem</a></li>
             </ul>

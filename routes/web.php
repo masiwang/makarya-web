@@ -40,6 +40,9 @@ Route::get('/profile/address', function () {
 Route::get('/profile/security', function () {
     return view('client/profile/security');
 });
+Route::get('/myinvestment', function(){
+    return view('client/profile/myinvestment');
+});
 // MARKET
 Route::get('/market', function(){
     return view('client/market/all');
