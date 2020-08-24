@@ -69,9 +69,11 @@
                                             <p id="addBirthday" class="col-form-label">Tambah nomor HP</p>
                                         </div>
                                     </div>
+                                    <div class="col-md-12 text-right">
                                     <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">
                                     Ubah Profile
                                     </button>
+                                    </div>
                                 </form>
                             </div>
                         </div>

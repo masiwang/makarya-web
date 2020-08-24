@@ -32,7 +32,7 @@
                             </div>
                             <div class="mb-3 row">
                                 <div class="col-12 text-right">
-                                    <button class="btn btn-success btn-sm" style="width: 5rem">Simpan</button>
+                                    <button class="btn btn-outline-success" style="width: 5rem">Simpan</button>
                                 </div>
                             </div>
                         </form>

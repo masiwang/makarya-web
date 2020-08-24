@@ -13,25 +13,39 @@
                         @include('client/profile/_topbar')
                         <div class="row p-3">
                             <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Upload KTP</label>
+                                <div class="form-file">
+                                    <input type="file" class="form-file-input" id="customFile">
+                                    <label class="form-file-label" for="customFile">
+                                      <span class="form-file-text">Choose file...</span>
+                                      <span class="form-file-button">Browse</span>
+                                    </label>
+                                  </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <img src="..." class="img-thumbnail" alt="...">
+                            </div>
+                            {{-- <div class="mb-3 row">
                                 <label for="staticEmail" class="col-sm-2 col-form-label">Foto KTP</label>
                                 <div class="col-sm-10">
                                     <p id="addBirthday" class="col-form-label">331419**********</p>
                                 </div>
+                            </div> --}}
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Upload NPWP</label>
+                                <div class="form-file">
+                                    <input type="file" class="form-file-input" id="customFile">
+                                    <label class="form-file-label" for="customFile">
+                                      <span class="form-file-text">Choose file...</span>
+                                      <span class="form-file-button">Browse</span>
+                                    </label>
+                                  </div>
                             </div>
                             <div class="mb-3 row">
-                                <label for="staticEmail" class="col-sm-2 col-form-label">Nomor KTP</label>
-                                <div class="col-sm-10">
-                                    <p id="addBirthday" class="col-form-label">331419**********</p>
-                                </div>
-                            </div>
-                            <div class="mb-5 row">
-                                <label for="staticEmail" class="col-sm-2 col-form-label">Nomor NPWP</label>
-                                <div class="col-sm-10">
-                                    <p id="addBirthday" class="col-form-label">99.999.999.x-xxx.xxx</p>
-                                </div>
+                                <img src="..." class="img-thumbnail" alt="...">
                             </div>
                             <div class="mb-3 row">
-                                <div class="col-12 text-left">
+                                <div class="col-md-12 text-right">
                                 <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">
                                     ubah dokumen
                                 </button>
