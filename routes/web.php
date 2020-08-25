@@ -40,8 +40,12 @@ Route::get('/profile/address', function () {
 Route::get('/profile/security', function () {
     return view('client/profile/security');
 });
+// MY_INVESTMENT
 Route::get('/myinvestment', function(){
-    return view('client/profile/myinvestment');
+    return view('client/my_investment/myinvestment');
+});
+Route::get('/dalam_pembiayaan', function(){
+    return view('client/my_investment/dalam_pembiayaan');
 });
 // MARKET
 Route::get('/market', function(){
