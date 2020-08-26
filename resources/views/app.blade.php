@@ -128,7 +128,7 @@
             }
           }
       </style>
-      <title>Hello, world!</title>
+      <title>Makarya</title>
     </head>
     <body>
       @yield('content')

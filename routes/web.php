@@ -47,6 +47,9 @@ Route::get('/myinvestment', function(){
 Route::get('/dalam_pembiayaan', function(){
     return view('client/my_investment/dalam_pembiayaan');
 });
+Route::get('/sedang_berjalan', function(){
+    return view('client/my_investment/sedang_berjalan');
+});
 // MARKET
 Route::get('/market', function(){
     return view('client/market/all');

@@ -10,7 +10,7 @@
 <div class="row ma-sidemenu">
     <div class="col-md-12">
         <div class="d-flex justify-content-between">
-            <h6>Kotak Masuk</h6>
+            <h6>Profil Saya</h6>
             <a role ="button" data-toggle="collapse" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-down-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
@@ -19,10 +19,10 @@
         </div>
         <div class="collapse show" id="collapseExample">
             <ul>
-                <li><a href="" class="ma-sidemenu-link active">Pembelian</a></li>
-                <li><a href="/myinvestment" class="ma-sidemenu-link active">Investasi</a></li>
-                <li><a href="" class="ma-sidemenu-link">Bantuan</a></li>
-                <li><a href="" class="ma-sidemenu-link">Sistem</a></li>
+                <li><a href="" class="ma-sidemenu-link active">Biodata Diri</a></li>
+                <li><a href="/myinvestment" class="ma-sidemenu-link">Dokumen Pribadi</a></li>
+                <li><a href="" class="ma-sidemenu-link">Daftar Alamat</a></li>
+                <li><a href="" class="ma-sidemenu-link">Keamanan</a></li>
             </ul>
         </div>
         <div class="d-flex justify-content-between">
@@ -50,8 +50,10 @@
         </div>
         <div class="collapse show" id="collapseExample3">
             <ul>
-                <li><a href="" class="ma-sidemenu-link">Daftar Portofolio</a></li>
-                <li><a href="" class="ma-sidemenu-link">Investasi Selesai</a></li>
+                <li><a href="" class="ma-sidemenu-link">Status</a></li>
+                <li><a href="" class="ma-sidemenu-link">Dalam Pembiayaan</a></li>
+                <li><a href="" class="ma-sidemenu-link">Sedang erjalan</a></li>
+                <li><a href="" class="ma-sidemenu-link">Selesai</a></li>
             </ul>
         </div>
     </div>

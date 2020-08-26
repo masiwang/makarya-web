@@ -6,7 +6,7 @@
       <a class="nav-link {{Request::is('my_investment/dalam_pembiayaan') ? 'active' : ''}}" href="{{url('dalam_pembiayaan')}}">Dalam Pembiayaan</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link {{Request::is('') ? 'active' : ''}}" href="">Sedang Berjalan</a>
+      <a class="nav-link {{Request::is('my_investment/sedang_berjalan') ? 'active' : ''}}" href="{{url('sedang_berjalan')}}">Sedang Berjalan</a>
     </li>
     <li class="nav-item">
       <a class="nav-link {{Request::is('') ? 'active' : ''}}" href="">Selesai</a>

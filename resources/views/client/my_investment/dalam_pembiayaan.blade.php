@@ -12,28 +12,72 @@
                     <div class="col-md-12 card-body">
                         @include('client/my_investment/_topbarinvest')
                         <div class="row p-3">
-                            <div class="col-sm-2 row">
-                                <label for="staticEmail" class="col-form-label">Foto KTP</label>
-                            </div>
-                                  <div class="col-md-4 row">
-                                      <img src="{{asset('image/default_toped-21.jpg')}}" class="img-thumbnail" alt="" srcset="">
-                                  </div>
-                            <div class="col-sm-2 row">
-                                <label for="staticEmail" class="col-form-label">Foto NPWP</label>
-                            </div>
-                                  <div class="col-md-4 row">
-                                      <img src="{{asset('image/default_toped-21.jpg')}}" class="img-thumbnail" alt="" srcset="">
-                                  </div>
-                        </div>
-                            <div class="col-mb-4 row">
-                                <div class="col-md-12 text-right">
-                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">
-                                    upload dokumen
-                                </button>
+                          <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="{{asset('image/fisheries.jpg')}}" class="card-img-top" alt="...">
+                                <div class="card-img-overlay text-right">
+                                  <button type="button" class="btn btn-info text-white rounded-pill btn-sm">Menunggu Pembayaran</button>
                                 </div>
+                                <div class="card-body text-success">
+                                  <h5 class="card-title">Budidaya Perikanan Jepara</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> 
+                                </div>
+                              </div>
+                              <div class="card-footer">
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#staticBackdrop">Lihat detail</button>
+                                  </div>
+                              </div>
                             </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="{{asset('image/farmer.jpg')}}" class="card-img-top" alt="...">
+                                <div class="card-img-overlay text-right">
+                                  <button type="button" class="btn btn-info text-white rounded-pill btn-sm">Menunggu Pembayaran</button>
+                                </div>
+                                <div class="card-body text-success">
+                                  <h5 class="card-title">Ayam Petelur Sragen</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                              </div>
+                              <div class="card-footer">
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Lihat detail</button>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="{{asset('image/farmercow.jpg')}}" class="card-img-top" alt="...">
+                                <div class="card-body text-success">
+                                  <h5 class="card-title">Peternakan Sapi Gombloh</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                              </div>
+                              <div class="card-footer">
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#staticBackdrop">Lihat detail</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
+                    <div style="height:50px"></div>
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
                 </div>
             </div>
         </div>
