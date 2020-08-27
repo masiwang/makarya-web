@@ -43,77 +43,115 @@
                             <div class="section category">
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <div class="card border border-grey" style="width: 18rem;">
-                                            <img src="{{asset('image/chicken-egg-b-300x295.jpg')}}" class="card-img-top" alt="Avatar">
+                                        <div class="card border border-success" style="width: 18rem;">
+                                            <img src="{{asset('image/farmer.jpg')}}" class="card-img-top" alt="Avatar">
                                             <div class="card-body">
                                                 <h5 class="card-title text-success" style="text-align: center">Ayam Petelur</h5>
-                                                <div class="text-center">
-                                                <button type="button" class="btn btn-warning text-white rounded-pill">Sedang Berjalan</button>
+                                                <div class="card-img-overlay text-right">
+                                                <button type="button" class="btn btn-info text-white rounded-pill btn-sm">Dalam Pembiayaan</button>
                                                 </div>
                                                 {{-- <p class="card-text" style="text-align: center">Lebih dari 300 ayam produktif penghasil telur kualitas terbaik .</p> --}}
                                             </div>
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item text-black-50" style="text-align: center">Harga 
-                                                    <p class="text-success">Rp. 2.500.000</p>
-                                                </li>
-                                                <li class="list-group-item text-black-50" style="text-align: center">Periode Kontrak
-                                                    <p class="text-success">2 tahun</p>
-                                                </li>
-                                                <li class="list-group-item text-black-50" style="text-align: center">Stok
-                                                    <p class="text-success">200</p>
-                                                    <button type="button" class="btn btn-outline-success text-center" data-toggle="modal" data-target="#staticBackdrop">Lihat selengkapnya</button>
-                                                </li>
-                                            </ul>
+                                            <div class="row mb-3">
+                                            <div class="card-body text-center" >
+                                                <table class="table">
+                                                    <tbody>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Harga</th>
+                                                        <td>Rp,2.500.000</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Periode Kontrak</th>
+                                                        <td>2 Tahun</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Stock</th>
+                                                        <td>150 Unit</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Batas Waktu</th>
+                                                        <td>22 Oktober 2020</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                            </div>
+                                            </div>
                                         </div>
+                                        <button type="button" class="btn btn-outline-success text-center" data-toggle="modal" data-target="#staticBackdrop" style="width: 18rem;">Lihat selengkapnya</button>
                                     </div>
                                     <div class="col-sm-4">
-                                        <div class="card border border-grey" style="width: 18rem;">
-                                            <img src="{{asset('image/jamur-merang-300x300.jpg')}}" class="card-img-top" alt="Avatar">
+                                        <div class="card border border-success" style="width: 18rem;">
+                                            <img src="{{asset('image/fisheries.jpg')}}" class="card-img-top" alt="Avatar">
                                             <div class="card-body">
-                                                <h5 class="card-title text-success" style="text-align: center">Jamur Merang</h5>
-                                                <div class="text-center">
-                                                    <button type="button" class="btn btn-success text-white rounded-pill">Pendanaan Selesai</button>
+                                                <h5 class="card-title text-success" style="text-align: center">Budidaya Ikan Tongkol</h5>
+                                                <div class="card-img-overlay text-right">
+                                                <button type="button" class="btn btn-warning text-white rounded-pill btn-sm">Sedang Berjalan</button>
                                                 </div>
                                                 {{-- <p class="card-text" style="text-align: center">Lebih dari 300 ayam produktif penghasil telur kualitas terbaik .</p> --}}
                                             </div>
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item text-black-50" style="text-align: center">Harga 
-                                                    <p class="text-success">Rp. 2.500.000</p>
-                                                </li>
-                                                <li class="list-group-item text-black-50" style="text-align: center">Periode Kontrak
-                                                    <p class="text-success">2 tahun</p>
-                                                </li>
-                                                <li class="list-group-item text-black-50" style="text-align: center">Stok
-                                                    <p class="text-success">200</p>
-                                                    <button type="button" class="btn btn-outline-success text-center" data-toggle="modal" data-target="#staticBackdrop">Lihat selengkapnya</button>
-                                                </li>
-                                            </ul>
-                                            
+                                            <div class="row mb-3">
+                                            <div class="card-body text-center" >
+                                                <table class="table">
+                                                    <tbody>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Harga</th>
+                                                        <td>Rp,500.000</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Periode Kontrak</th>
+                                                        <td>1 Tahun</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Stock</th>
+                                                        <td>100 Unit</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Batas Waktu</th>
+                                                        <td>22 Oktober 2020</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                            </div>
+                                            </div>
                                         </div>
+                                        <button type="button" class="btn btn-outline-success text-center" data-toggle="modal" data-target="#staticBackdrop" style="width: 18rem;">Lihat selengkapnya</button>
                                     </div>
                                     <div class="col-sm-4">
-                                        <div class="card border border-grey" style="width: 18rem;">
-                                            <img src="{{asset('image/kacang-panjang-300x300.jpg')}}" class="card-img-top" alt="Avatar">
+                                        <div class="card border border-success" style="width: 18rem;">
+                                            <img src="{{asset('image/farmercow.jpg')}}" class="card-img-top" alt="Avatar">
                                             <div class="card-body">
-                                                <h5 class="card-title text-success" style="text-align: center">Kacang Panjang</h5>
-                                                <div class="text-center">
-                                                    <button type="button" class="btn btn-success text-white rounded-pill">Pendanaan Selesai</button>
+                                                <h5 class="card-title text-success" style="text-align: center">Peternakan Sapi Perah</h5>
+                                                <div class="card-img-overlay text-right">
+                                                <button type="button" class="btn btn-success text-white rounded-pill btn-sm">Selesai</button>
                                                 </div>
                                                 {{-- <p class="card-text" style="text-align: center">Lebih dari 300 ayam produktif penghasil telur kualitas terbaik .</p> --}}
                                             </div>
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item text-black-50" style="text-align: center">Harga 
-                                                    <p class="text-success">Rp. 2.500.000</p>
-                                                </li>
-                                                <li class="list-group-item text-black-50" style="text-align: center">Periode Kontrak
-                                                    <p class="text-success">2 tahun</p>
-                                                </li>
-                                                <li class="list-group-item text-black-50" style="text-align: center">Stok
-                                                    <p class="text-success">200</p>
-                                                    <button type="button" class="btn btn-outline-success text-center" data-toggle="modal" data-target="#staticBackdrop">Lihat selengkapnya</button>
-                                                </li>
-                                            </ul>
+                                            <div class="row mb-3">
+                                            <div class="card-body text-center" >
+                                                <table class="table">
+                                                    <tbody>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Harga</th>
+                                                        <td>Rp,2.500.000</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Periode Kontrak</th>
+                                                        <td>2 Tahun</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Stock</th>
+                                                        <td>150 Unit</td>
+                                                      </tr>
+                                                      <tr class="text-success text-left">
+                                                        <th scope="row">Batas Waktu</th>
+                                                        <td>22 Oktober 2020</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                            </div>
+                                            </div>
                                         </div>
+                                        <button type="button" class="btn btn-outline-success text-center" data-toggle="modal" data-target="#staticBackdrop" style="width: 18rem;">Lihat selengkapnya</button>
                                     </div>
                                 </div>
                             </div>

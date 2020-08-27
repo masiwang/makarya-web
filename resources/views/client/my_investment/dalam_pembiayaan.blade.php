@@ -21,7 +21,30 @@
                                 </div>
                                 <div class="card-body text-success">
                                   <h5 class="card-title">Budidaya Perikanan Jepara</h5>
-                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> 
+                                  <p class="card-text">Budidaya oleh peternakan telur yang tebukktu kebersihanya</p> 
+                                  <hr>
+                                  <div class="row">
+                                    <table class="table">
+                                      <tbody>
+                                        <tr class="text-success text-left">
+                                          <th scope="row">Harga</th>
+                                          <td>Rp,500.000</td>
+                                        </tr>
+                                        <tr class="text-success text-left">
+                                          <th scope="row">Periode Kontrak</th>
+                                          <td>1 Tahun</td>
+                                        </tr>
+                                        <tr class="text-success text-left">
+                                          <th scope="row">Stock</th>
+                                          <td>100 Unit</td>
+                                        </tr>
+                                        <tr class="text-success text-left">
+                                          <th scope="row">Batas Waktu</th>
+                                          <td>22 Oktober 2020</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
                                 </div>
                               </div>
                               <div class="card-footer">
