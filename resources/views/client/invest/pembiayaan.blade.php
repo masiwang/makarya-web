@@ -236,7 +236,7 @@
                 <div class="col-6">
                     <div class="input-group">
                         {{-- <span class="input-group-text" id="basic-addon1">Qty</span> --}}
-                        <input type="number" class="form-control" placeholder="Jumlah Unit" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="number" class="form-control" placeholder="Jumlah Unit (Max 5)" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                 </div>                  
                         <button type="button" class="btn btn-success col-6">Biayai Sekarang</button>            

@@ -132,7 +132,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title text-success" id="staticBackdropLabel">Upload Dokumen</h5>
+        <h5 class="modal-title text-success" id="staticBackdropLabel">Metode Pembayaran</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -140,27 +140,36 @@
       <div class="modal-body">
         <!--isi modal-->
         <div class="row g-3">
-          <label for="staticEmail" class="col-form-label">Foto KTP</label>
-          <div class="form-file">
-            <input type="file" class="form-file-input" id="customFile">
-            <label class="form-file-label" for="customFile">
-              <span class="form-file-text">Choose file...</span>
-              <span class="form-file-button">Browse</span>
-            </label>
-          </div>
-          <label for="staticEmail" class="col-form-label">Foto NPWP</label>
-            <div class="form-file">
-              <input type="file" class="form-file-input" id="customFile">
-              <label class="form-file-label" for="customFile">
-                <span class="form-file-text">Choose file...</span>
-                <span class="form-file-button">Browse</span>
-              </label>
-            </div>
+          <table class="table table-secondary">
+            <tbody>
+              <tr>
+                <th scope="row">Total bayar</th>
+                <td>Rp,2.500.000</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-secondary text-center">
+            <tbody>
+              <tr>
+                <th scope="row"><input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Masukkan kode voucher"></th>
+                <td><a href="#" class="btn btn-secondary disabled btn-sm" tabindex="-1" role="button" aria-disabled="true">Gunakan</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-primary text-center">
+            <tbody>
+              <tr>
+                <th scope="row"><img src="" alt="..." height="30" width="10"></th>
+                <th scope="row"><input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Masukkan kode voucher"></th>
+                <td><a href="#" class="btn btn-secondary disabled btn-sm" tabindex="-1" role="button" aria-disabled="true">Gunakan</a></td>
+              </tr>
+            </tbody>
+          </table>
           </div>
         </div>
       <div class="modal-footer">
         <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button> -->
-        <button type="button" class="btn btn-success">Simpan</button>
+        <button type="button" class="btn btn-warning text-white">Bayar</button>
       </div>
     </div>
   </div>
