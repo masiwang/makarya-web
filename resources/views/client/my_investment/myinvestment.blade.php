@@ -12,6 +12,7 @@
                     <div class="col-md-12 card-body">
                         @include('client/my_investment/_topbarinvest')
                         <div class="row p-3">
+                            <h6> Status </h6>
                             <div class="alert alert-success alert-dismissible fade show" role="alert">
                                 <strong>Selamat!</strong> Akun anda telah terverifikasi.
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -42,9 +43,56 @@
                                 </div>
                             </div>
                         </div>
+                        <h6> Dana Anda </h6>
+                <div class="row">
+                    <div class="col-sm-4">
+                      <div class="card">
+                        <img src="{{asset('image/dana.jpg')}}" class="card-img-top" alt="...">
+                        <div class="card-img-overlay">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: white">Dana yang bisa dicairkan</h5>
+                          <hr class="text-light">
+                            <table class="table table-primary">
+                              <tbody>
+                                <tr>
+                                  <th scope="row" style="color: grey">Rp 0</th>
+                                  <th></th>
+                                  <th></th>
+                                 
+                                  <td><a href="#" class="btn btn-info text-white text-right">Cairkan Dana</a></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card bg-light">
+                        <div class="card-body">
+                          <h5 class="card-title">Total Bagi Hasil</h5>
+                          <hr class="text-green">
+                          <p class="card-text">Total bagi hasil anda di Makarya</p>
+                          <h5 style="color: grey"> Rp 0 </h5>
+                          {{-- <a href="#" class="btn btn-primary" style="text-align: right">Go somewhere</a> --}}
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card bg-light">
+                          <div class="card-body">
+                            <h5 class="card-title">Dalam Pendanaan</h5>
+                            <hr class="text-green">
+                            <p class="card-text">Dana yang menunggu untuk dikelola</p>
+                            <h5 style="color: grey"> Rp 0 </h5>
+                            {{-- <a href="#" class="btn btn-primary" style="text-align: right">Go somewhere</a> --}}
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>

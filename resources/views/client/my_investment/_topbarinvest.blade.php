@@ -1,6 +1,6 @@
 <ul class="nav nav-tabs mb-4">
     <li class="nav-item">
-        <a class="nav-link {{Request::is('my_investment/myinvestment') ? 'active' : ''}}" aria-current="page" href="{{url('myinvestment')}}">Status</a>
+        <a class="nav-link {{Request::is('my_investment/myinvestment') ? 'active' : ''}}" aria-current="page" href="{{url('myinvestment')}}">Dashboard</a>
     </li>
     <li class="nav-item">
       <a class="nav-link {{Request::is('my_investment/dalam_pembiayaan') ? 'active' : ''}}" href="{{url('dalam_pembiayaan')}}">Dalam Pembiayaan</a>
