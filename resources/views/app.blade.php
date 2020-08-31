@@ -10,6 +10,7 @@
       <link rel="stylesheet" href="{{ asset('style.css') }}">
       <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
       <link rel="stylesheet" href="{{ asset('css/fab.css') }}">
+    <link rel="shortcut icon" type="image/jpg" href="{{ asset('image/logo.ico')}}"/>
       <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet"> 
         <style>
             body, html{
@@ -136,5 +137,11 @@
       <!-- Popper.js first, then Bootstrap JS -->
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+    </script>
     </body>
 </html>

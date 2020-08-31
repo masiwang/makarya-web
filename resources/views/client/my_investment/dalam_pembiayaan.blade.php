@@ -143,33 +143,41 @@
           <table class="table table-secondary">
             <tbody>
               <tr>
-                <th scope="row">Total bayar</th>
-                <td>Rp,2.500.000</td>
+                <th >Jumlah Unit</th>
+                <th>2 x harga/unit</th>
+                <td scope="row">2 x Rp,100.000</td>
               </tr>
             </tbody>
-          </table>
-          <table class="table table-secondary text-center">
             <tbody>
               <tr>
-                <th scope="row"><input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Masukkan kode voucher"></th>
-                <td><a href="#" class="btn btn-secondary disabled btn-sm" tabindex="-1" role="button" aria-disabled="true">Gunakan</a></td>
+                <th></th>
+                <th>Total bayar</th>
+                <td scope="row">Rp,200.000</td>
               </tr>
             </tbody>
           </table>
-          <table class="table table-primary text-center">
-            <tbody>
-              <tr>
-                <th scope="row"><img src="" alt="..." height="30" width="10"></th>
-                <th scope="row"><input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Masukkan kode voucher"></th>
-                <td><a href="#" class="btn btn-secondary disabled btn-sm" tabindex="-1" role="button" aria-disabled="true">Gunakan</a></td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="form-file">
+            <input type="file" class="form-file-input" id="customFileLong">
+            <label class="form-file-label" for="customFileLong">
+              <span class="form-file-text" style="color: grey">Upload Bukti Transfer</span>
+              <span class="form-file-button">Browse</span>
+            </label>
+          </div>
+          
+            <a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Syarat dan Kondisi Pembayaran
+            </a>
+          
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              -Transaksi akan dibatalkan jika dalam jangka waktu 2 x 24 jam tidak terjadi pembayaran (transfer).
+            </div>
+          </div>
           </div>
         </div>
       <div class="modal-footer">
         <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button> -->
-        <button type="button" class="btn btn-warning text-white">Bayar</button>
+        <button type="button" class="btn btn-warning text-white">Biayai Sekarang</button>
       </div>
     </div>
   </div>
