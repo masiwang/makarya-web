@@ -7,7 +7,7 @@
                 <div class="section category">
                     <div class="row">
                         <div class="col-sm-12">
-                            <ul class="list-group list-group-horizontal list-group-menu">
+                            <ul class="list-group list-group-horizontal list-group-menu d-flex justify-content-center">
                                 <li class="list-group-item ma-menu ma-daging" style="border-radius: 1rem;background-image:url({{asset('image/menu3.png')}}); background-size:cover; background-repeat:none;background-position:center">
                                     <a href="">
                                         <div class="ma-menu-title" style="position: absolute; left: 0; bottom: 20%; right: 0; display: flex; justify-content: center; color: white; z-index: 99;transform:translate(0, 50%)">
