@@ -20,7 +20,7 @@
                               <div style="color: grey">Jl. Mt. Haryono Gg. V, Kec. Lowokwaru, Kota Malang, Jawa Timur, 65144 [Makarya Note: Jalan MT Haryono Gg V no 271F]
                                 Lowokwaru, Kota Malang, 65144</div>
                               <hr style="color: green">
-                              <button type="button" class="btn btn-success">Ganti Alamat Lain</button>
+                              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Ubah Alamat</button>
                             </div>
                             
                             <div class="col-sm-5">
@@ -71,59 +71,55 @@
             </div>
         </div>
     </div>
+
     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-success" id="staticBackdropLabel">Metode Pembayaran</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <!--isi modal-->
-        <div class="row g-3">
-          <table class="table table-secondary">
-            <tbody>
-              <tr>
-                <th >Jumlah Unit</th>
-                <th>2 x harga/unit</th>
-                <td scope="row">2 x Rp,100.000</td>
-              </tr>
-            </tbody>
-            <tbody>
-              <tr>
-                <th></th>
-                <th>Total bayar</th>
-                <td scope="row">Rp,200.000</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="form-file">
-            <input type="file" class="form-file-input" id="customFileLong">
-            <label class="form-file-label" for="customFileLong">
-              <span class="form-file-text" style="color: grey">Upload Bukti Transfer</span>
-              <span class="form-file-button">Browse</span>
-            </label>
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="row p-4">
+            {{-- <h5 class="modal-title text-success" id="staticBackdropLabel">Ubah Alamat</h5> --}}
+            <button type="button" class="close btn-lg" style="text-align: right" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title text-secondary text-center" id="staticBackdropLabel">Ubah Alamat</h4>
           </div>
-          
-            <a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Syarat dan Kondisi Pembayaran
-            </a>
-          
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              -Transaksi akan dibatalkan jika dalam jangka waktu 2 x 24 jam tidak terjadi pembayaran (transfer).
+          <div class="modal-body">
+            <!--isi modal-->
+            <div class="row g-3">
+                <div class="col-md-12">
+                  <small class="text-muted">Label Alamat</small>
+                    <input type="text" class="form-control" placeholder="Rumah" aria-label="Nama lengkap">
+                    <small class="text-muted">Contoh: Alamat Rumah, Alamat Kantor, Apartemen, Dropship</small>
+                  </div>
+                  
+                    <div class="col-md-6">
+                      <small class="text-muted">Nama Penerima</small>
+                      <input type="text" class="form-control" placeholder="Nama" aria-label="First name">
+                    </div>
+                    <div class="col-md-6">
+                      <small class="text-muted">Nomor Telepon</small>
+                      <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                    </div>
+                  
+                    <div class="col-md-9">
+                      <small class="text-muted">Kota atau Kecamatan</small>
+                      <input type="text" class="form-control" placeholder="Tulis Nama Alamat/Kota/Kecamatan tujuan" aria-label="First name">
+                    </div>
+                    <div class="col-md-3">
+                      <small class="text-muted">Kode Pos</small>
+                      <input type="text" class="form-control" placeholder="Kode Pos" aria-label="Last name">
+                    </div>
+                    <div class="col-md-12">
+                      <small class="text-muted">Alamat</small>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Isi dengan nama jalan, nomor rumah, nomor kompleks,nama gedung, lantau atau nomor unit" rows="3"></textarea>
+                    </div>
             </div>
           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" style="color: grey" data-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-success">Simpan</button>
           </div>
         </div>
-      <div class="modal-footer">
-        <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button> -->
-        <button type="button" class="btn btn-warning text-white">Biayai Sekarang</button>
       </div>
     </div>
-  </div>
-</div>
     <div style="height:50px"></div>
 @endsection
