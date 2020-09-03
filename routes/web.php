@@ -57,6 +57,9 @@ Route::get('/market', function(){
 Route::get('/keranjang', function(){
     return view('client/market/keranjang');
 });
+Route::get('/checkout', function(){
+    return view('client/market/checkout');
+});
 // INVEST
 Route::get('/pembiayaan', function(){
     return view('client/invest/pembiayaan');

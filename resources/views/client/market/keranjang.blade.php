@@ -36,7 +36,7 @@
                                         <div class="col-12">
                                             <h6 class="text-primary">Total Harga</h6> 
                                             <h6 class="text-success"><span class="text-dark">Estimasi harga: </span>Rp. 12.000</h6>
-                                            <button type="button" class="btn btn-success btn-lg btn-block text-white"><span class="text-white">Beli</span>(3)</button>
+                                        <button type="button" class="btn btn-success btn-lg btn-block text-white"><span class="text-white" href="{{url('/checkout')}}">Beli</span>(3)</button>
                                         </div>
                                     </div>
                                 </div>
@@ -61,59 +61,5 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-success" id="staticBackdropLabel">Metode Pembayaran</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <!--isi modal-->
-        <div class="row g-3">
-          <table class="table table-secondary">
-            <tbody>
-              <tr>
-                <th >Jumlah Unit</th>
-                <th>2 x harga/unit</th>
-                <td scope="row">2 x Rp,100.000</td>
-              </tr>
-            </tbody>
-            <tbody>
-              <tr>
-                <th></th>
-                <th>Total bayar</th>
-                <td scope="row">Rp,200.000</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="form-file">
-            <input type="file" class="form-file-input" id="customFileLong">
-            <label class="form-file-label" for="customFileLong">
-              <span class="form-file-text" style="color: grey">Upload Bukti Transfer</span>
-              <span class="form-file-button">Browse</span>
-            </label>
-          </div>
-          
-            <a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Syarat dan Kondisi Pembayaran
-            </a>
-          
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              -Transaksi akan dibatalkan jika dalam jangka waktu 2 x 24 jam tidak terjadi pembayaran (transfer).
-            </div>
-          </div>
-          </div>
-        </div>
-      <div class="modal-footer">
-        <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button> -->
-        <button type="button" class="btn btn-warning text-white">Biayai Sekarang</button>
-      </div>
-    </div>
-  </div>
-</div>
     <div style="height:50px"></div>
 @endsection
