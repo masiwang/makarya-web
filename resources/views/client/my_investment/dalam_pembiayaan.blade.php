@@ -10,7 +10,7 @@
             <div class="col-md-10"> 
                 <div class="row">
                     <div class="col-md-12 card-body">
-                        @include('client/my_investment/_topbarinvest')
+                        @include('client/my_investment/_topbarinvest')  
                         <div class="row p-3">
                           <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
