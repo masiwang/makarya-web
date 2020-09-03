@@ -27,6 +27,7 @@
                               <div class="card">
                                 <div class="card-body">
                                   <h6 class="card-title">Ringlasan Belanja</h6>
+                                  <hr style="color: green">
                                   <table class="table">
                                     <tbody>
                                       <tr>
