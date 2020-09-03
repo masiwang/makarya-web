@@ -55,10 +55,26 @@
                 <span class="ma-menu-title">Keranjang</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+                {{-- <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> --}}
+                <table class="table table-primary">
+                  <tbody>
+                    <tr>
+                      <th><h6> Telur ayam (15) </h6></th>
+                      <th></th>
+                      <th>Lihat Sekarang</th>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <th></th>
+                      <th>Total bayar</th>
+                      <td scope="row">Rp,200.000</td>
+                    </tr>
+                  </tbody>
+                </table>
             </ul>
           </li>
           <li class="nav-item dropdown">
