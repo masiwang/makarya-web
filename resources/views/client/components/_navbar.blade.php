@@ -62,7 +62,7 @@
                 <table class="table table-primary">
                   <tbody>
                     <tr>
-                      <th><h6> Telur ayam (15) </h6></th>
+                      <th><h6> Telur ayam (15 ) </h6></th>
                       <th></th>
                       <th>Lihat Sekarang</th>
                     </tr>
